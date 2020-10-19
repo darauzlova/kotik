@@ -1,0 +1,71 @@
+body{
+	background-color: #fadbc8;
+	background-image: url(fon.png);
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    color: red;
+}
+
+a:hover {
+    background-size: 100% 2px;
+}
+.zag{
+	font-size: 70px;
+	align-content: center;
+	color: #DC143C;
+}
+.nom1{
+	width: 100%;
+	height: 50px;
+	background-color:#f2ddc6;
+	
+	text-align: center;
+	font-weight: 300px;
+	font-size: 30px;
+	
+}
+.img1{
+	float: left;
+}
+.nom2{
+	width: 390px;
+	height: 450px;
+	padding-top: : 20px;
+	background-color: #FA8072;
+	margin-left: 50px;
+	float: left;
+	margin-top: 30px;
+	font-size: 30px;
+	text-align: center;
+	color: #F0E68C;
+
+}
+.img2{
+	position: absolute;
+	right: 20px;
+}
+.img3{
+	margin-top: 20px;
+	margin-right: 60px;
+	margin-left: 60px;
+}
+
+.nom3{
+height: 500px;
+width: 100%;
+background-color:#f2ddc6; 
+margin-top: 520px;
+font-size: 20px;
+}
+.text{
+position: absolute;
+left: 50%;
+}
